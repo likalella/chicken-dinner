@@ -1,0 +1,25 @@
+[debug] [2019-03-16T08:40:31.767Z] ----------------------------------------------------------------------
+[debug] [2019-03-16T08:40:31.770Z] Command:       /usr/local/Cellar/node/11.11.0/bin/node /usr/local/bin/firebase serve
+[debug] [2019-03-16T08:40:31.770Z] CLI Version:   6.5.0
+[debug] [2019-03-16T08:40:31.770Z] Platform:      darwin
+[debug] [2019-03-16T08:40:31.770Z] Node Version:  v11.11.0
+[debug] [2019-03-16T08:40:31.781Z] Time:          Sat Mar 16 2019 17:40:31 GMT+0900 (대한민국 표준시)
+[debug] [2019-03-16T08:40:31.781Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-03-16T08:40:31.794Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-03-16T08:40:31.795Z] > authorizing via signed-in user
+[debug] [2019-03-16T08:40:31.795Z] [iam] checking project chicken-dinner-lge for permissions ["firebase.projects.get"]
+[debug] [2019-03-16T08:40:31.797Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/chicken-dinner-lge:testIamPermissions  
+
+[debug] [2019-03-16T08:40:32.770Z] <<< HTTP RESPONSE 200
+[debug] [2019-03-16T08:40:32.773Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/chicken-dinner-lge  
+ 
+[debug] [2019-03-16T08:40:33.614Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/kaeun/Dev/chicken-dinner'...
+[info] 
+[debug] [2019-03-16T08:40:33.622Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/879167184720/clients/_:getWebAppConfig  
+ 
+[debug] [2019-03-16T08:40:34.812Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5000
